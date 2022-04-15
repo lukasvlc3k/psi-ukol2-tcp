@@ -15,3 +15,5 @@ Ve smyčce se čtou data z navázaného TCP spojení, pokud v timeoutu (ve vých
 žádná další data nepřijdou, zahájí se zpracování. Nejprve se provede parsování HTTP requestu,
 zkontroluje se, zda se strukturou jedná o HTTP request s metodou GET a jako odpověď serveru
 se vrátí validní HTTP Response obsahující zprávu IT WORKS, požadovanou cestu a časovou značku serveru.
+
+Vyvíjeno a testováno v Pythonu 3.9.12
